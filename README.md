@@ -530,12 +530,3 @@ gcloud logging logs delete \
 
 - **Main Project**: AIOps Agent [Repository](https://github.com/arjun-palani-sada/aiops-agent.git)
 
----
-
-## 🎓 Related Documentation
-
-- [AIOps Agent Documentation](../aiops-agent-final/README.md)
-
----
-
-**Built for testing AIOps Agent - Happy debugging! 🐛**

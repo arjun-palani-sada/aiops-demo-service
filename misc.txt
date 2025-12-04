@@ -1,0 +1,13 @@
+python3 generate_traffic_auth.py $SERVICE_URL 2
+
+for dedicated permission errors :
+
+ for i in {1..50}; do
+  python3 -c "
+import requests, subprocess
+token = subprocess.check_output(['gcloud', 'auth', 'print-identity-token'], text=True).strip()
+requests.get('$SERVICE_URL/api/permission', headers={'Authorization': f'Bearer {token}'})
+print('.', end='', flush=True)
+"
+done
+echo ""

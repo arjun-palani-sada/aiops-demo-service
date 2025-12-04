@@ -526,30 +526,15 @@ gcloud logging logs delete \
 
 ---
 
-## 🤝 Contributing
-
-Contributions welcome! To add new error types:
-
-1. Add endpoint to `app.py`
-2. Update traffic generator
-3. Add documentation
-4. Test with AIOps Agent
-5. Submit PR
-
----
-
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](your-repo-issues-url)
-- **Main Project**: [AIOps Agent Repository](link-to-aiops-repo)
+- **Main Project**: AIOps Agent [Repository](https://github.com/arjun-palani-sada/aiops-agent.git)
 
 ---
 
 ## 🎓 Related Documentation
 
 - [AIOps Agent Documentation](../aiops-agent-final/README.md)
-- [Complete Testing Guide](TESTING_GUIDE.md)
-- [Error Patterns Reference](docs/ERROR_PATTERNS.md)
 
 ---
 
